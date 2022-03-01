@@ -1,0 +1,17 @@
+file = open("messi.txt", "a")
+for x in range(10):
+    file.write("XD")
+
+file = open("messi.txt", "r")
+
+
+
+data = file.read()
+
+
+number_of_characters = len(data)
+
+print('Number of characters in text file :', number_of_characters)
+
+tab = ["one" , "on" , "une" , "uno" , "mama" , "mia" , "pog" , "champ" , "gigachad" , "jeden" , "duzy" , "drugi" , "maly" , "obaj" , "biegac" , "tu" , "lubiali" , "lezec" , "na" , "kanapie" , "i " , "chillowac" , "tutaj" , "bombe" , "jak" , "sienki" , "robie" , "sobie" , "niesmieszny" , "zart"  ]
+
